@@ -4,32 +4,34 @@
    ========================================================================== */
 
 :root {
-  /* Color Palette - Chocolatería Artesanal Oxapampa */
-  --color-primary: #1b4332;       /* Verde Selva Oxapampa */
-  --color-primary-light: #2d6a4f; 
-  --color-cocoa: #3d2314;         /* Marrón Cacao Oscuro */
-  --color-accent: #c2410c;        /* Terracota artesanal */
-  --color-bg: #faf7f2;            /* Crema pergamino suave */
+  /* Color Palette - Referencia Artesanal (Siena, Tan, RosyBrown & DimGray) */
+  --color-primary: #A0522D;       /* Siena (#A0522D) */
+  --color-primary-dark: #3a1c0d;  /* Cacao Tostado Oscuro */
+  --color-accent: #D2B48C;        /* Tan (#D2B48C) */
+  --color-accent-hover: #c49d6d;  
+  --color-rosy: #BC8F8F;          /* RosyBrown (#BC8F8F) */
+  --color-gray: #696969;          /* DimGray (#696969) */
+  --color-bg: #FAF7F2;            /* Marfil pergamino cálido artesanal */
   --color-surface: #ffffff;       /* Blanco puro superficie */
-  --color-text: #1c1917;          /* Texto alto contraste */
-  --color-text-muted: #57534e;    /* Texto secundario */
-  --color-border: #e7e5e4;        /* Bordes suaves */
+  --color-text: #2C1810;          /* Texto Cacao Oscuro */
+  --color-text-muted: #696969;    /* DimGray (#696969) */
+  --color-border: #E8DFD8;        /* Bordes cálidos suaves */
   --color-whatsapp: #15803d;      /* Verde WhatsApp oficial */
   --color-whatsapp-hover: #166534;
-  --color-skeleton: #e5e5e5;
-  --color-skeleton-shimmer: #f5f5f5;
+  --color-skeleton: #E8DFD8;
+  --color-skeleton-shimmer: #F5EFEA;
 
   /* Typography */
   --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", system-ui, sans-serif;
 
   /* Layout & Spacing */
   --radius-sm: 8px;
-  --radius-md: 14px;
-  --radius-lg: 20px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
   --radius-full: 9999px;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
-  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+  --shadow-sm: 0 2px 6px rgba(160, 82, 45, 0.06);
+  --shadow-md: 0 8px 24px rgba(160, 82, 45, 0.09);
+  --shadow-lg: 0 16px 40px rgba(160, 82, 45, 0.16);
 
   /* Touch Target Minimum (48px for UX accessibility) */
   --min-touch-target: 48px;
@@ -60,7 +62,7 @@ body {
 
 /* Accessible Focus Ring */
 :focus-visible {
-  outline: 3px solid var(--color-accent);
+  outline: 3px solid var(--color-primary);
   outline-offset: 3px;
 }
 
@@ -96,13 +98,14 @@ body {
 
 /* Header & Brand Banner */
 .site-header {
-  background-color: var(--color-primary);
+  background: linear-gradient(135deg, #3a1c0d 0%, #A0522D 100%);
   color: #ffffff;
-  padding: 16px;
+  padding: 20px 16px;
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 4px 20px rgba(58, 28, 13, 0.22);
+  border-bottom: 3px solid var(--color-accent);
 }
 
 .header-container {
@@ -342,18 +345,19 @@ body {
 
 .brand-badge {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: var(--color-primary);
-  color: #ffffff;
-  font-size: 0.75rem;
-  font-weight: 700;
-  padding: 4px 10px;
+  top: 12px;
+  left: 12px;
+  background-color: var(--color-primary-dark);
+  color: var(--color-accent);
+  font-size: 0.725rem;
+  font-weight: 800;
+  padding: 4px 12px;
   border-radius: var(--radius-full);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  box-shadow: var(--shadow-sm);
+  letter-spacing: 0.08em;
+  box-shadow: 0 2px 8px rgba(58, 28, 13, 0.25);
   z-index: 2;
+  border: 1px solid var(--color-accent);
 }
 
 /* Card Content */
