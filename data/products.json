@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tony-70-fresa",
+    "brand": "Tony",
+    "title": "Chocolate 70% Cacao con Fresa",
+    "description": "Chocolate amargo 70% cacao orgánico de Oxapampa combinado con trozos de fresas deshidratadas. Deliciosa combinación frutal e intensa.",
+    "category": "Chocolates",
+    "tags": ["Frutados", "% Cacao"],
+    "price": 23.00,
+    "mainImage": "assets/images/tony/chocolate_tony_70_fresa.webp",
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "facebook": "https://facebook.com/chocolatestony",
+      "instagram": "https://instagram.com/chocolatestony"
+    }
+  },
+  {
+    "id": "tony-50-cacao",
+    "brand": "Tony",
+    "title": "Chocolate 50% Cacao",
+    "description": "Chocolate suave con leche elaborado con 50% cacao orgánico oxapampino. Notas cremosas.",
+    "category": "Chocolates",
+    "tags": ["Con leche", "% Cacao"],
+    "price": 16.00,
+    "mainImage": "assets/images/tony/chocolate_50.webp",
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "facebook": "https://facebook.com/chocolatestony",
+      "instagram": "https://instagram.com/chocolatestony"
+    }
+  },
+  {
+    "id": "tony-60-cacao",
+    "brand": "Tony",
+    "title": "Chocolate Bitter 60% Cacao",
+    "description": "Chocolate semiamargo al 60% cacao fino de aroma oxapampino. Sabor intenso.",
+    "category": "Chocolates",
+    "tags": ["% Cacao"],
+    "price": 18.00,
+    "mainImage": "assets/images/tony/chocolate_tony_60.webp",
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "facebook": "https://facebook.com/chocolatestony",
+      "instagram": "https://instagram.com/chocolatestony"
+    }
+  },
+  {
+    "id": "tony-70-cacao",
+    "brand": "Tony",
+    "title": "Chocolate Dark 70% Cacao",
+    "description": "Chocolate amargo premium 70% pureza. Rico en antioxidantes y cacao puro.",
+    "category": "Chocolates",
+    "tags": ["% Cacao"],
+    "price": 20.00,
+    "mainImage": "assets/images/tony/chocolate_tony_70.webp",
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "facebook": "https://facebook.com/chocolatestony",
+      "instagram": "https://instagram.com/chocolatestony"
+    }
+  },
+  {
+    "id": "tony-80-cacao",
+    "brand": "Tony",
+    "title": "Chocolate Finca 80% Cacao",
+    "description": "Edición especial 80% cacao puro nativo seleccionado de finca.",
+    "category": "Chocolates",
+    "tags": ["% Cacao"],
+    "price": 24.00,
+    "mainImage": "assets/images/tony/chocolate_80.webp",
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "facebook": "https://facebook.com/chocolatestony",
+      "instagram": "https://instagram.com/chocolatestony"
+    }
+  },
+  {
+    "id": "tony-arandanos",
+    "brand": "Tony",
+    "title": "Chocolate con Arándanos",
+    "description": "Chocolate semiamargo 65% combinado con arándanos deshidratados de la región.",
+    "category": "Chocolates",
+    "tags": ["Frutados"],
+    "price": 23.00,
+    "mainImage": "assets/images/tony/chocolate_arandanos.webp",
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "facebook": "https://facebook.com/chocolatestony",
+      "instagram": "https://instagram.com/chocolatestony"
+    }
+  },
+  {
+    "id": "tony-miel-nueces",
+    "brand": "Tony",
+    "title": "Chocolate con Miel & Nueces",
+    "description": "Chocolate 50% con leche, enriquecido con miel pura de abeja y nueces crujientes.",
+    "category": "Chocolates",
+    "tags": ["Frutados", "Con leche"],
+    "price": 21.00,
+    "mainImage": "assets/images/tony/chocolate_miel.webp",
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "facebook": "https://facebook.com/chocolatestony",
+      "instagram": "https://instagram.com/chocolatestony"
+    }
+  },
+  {
+    "id": "tony-nibs-cafe",
+    "brand": "Tony",
+    "title": "Chocolate 60% Nibs & Café",
+    "description": "Chocolate 60% cacao con nibs crujientes de cacao tostado y granos de café especial.",
+    "category": "Chocolates",
+    "tags": ["Frutados"],
+    "price": 22.00,
+    "mainImage": "assets/images/tony/chocolate_cafe.webp",
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "facebook": "https://facebook.com/chocolatestony",
+      "instagram": "https://instagram.com/chocolatestony"
+    }
+  }
+]

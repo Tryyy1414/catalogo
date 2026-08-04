@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolates Tony | Catálogo Virtual de Chocolatería Artesanal Oxapampa</title>
+  <meta name="description"
+    content="Catálogo virtual exclusivo de Chocolates Tony. Chocolates artesanales al 50%, 60%, 70% y 80% cacao de finca oxapampina con pedido directo por WhatsApp.">
+  <meta name="theme-color" content="#1b4332">
+
+  <!-- SEO Open Graph -->
+  <meta property="og:title" content="Chocolates Tony | Chocolatería Artesanal de Oxapampa">
+  <meta property="og:description"
+    content="Descubre el sabor puro de Oxapampa con Chocolates Tony. Cacao fino de aroma 50%, 60%, 70% y 80%.">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Offline / Network Status Banner -->
+  <div id="status-banner" class="status-banner" role="alert" aria-live="polite">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z" />
+    </svg>
+    <span id="status-message">Modo sin conexión activado</span>
+  </div>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="brand-header">
+        <div class="logo-group">
+          <!-- Cacao Bean / Chocolate SVG Icon -->
+          <svg class="logo-icon" viewBox="0 0 24 24">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+              fill="none" />
+            <path d="M12 3C7.03 3 3 7.03 3 12c0 4.97 4.03 9 9 9s9-4.03 9-9c0-4.97-4.03-9-9-9zm-1 14.5v-11l7 5.5-7 5.5z"
+              fill="currentColor" />
+          </svg>
+          <div>
+            <h1 class="site-title">Chocolates Tony</h1>
+            <p class="site-subtitle">Chocolatería Artesanal con distintos porcentajes de cacao, frutos secos y frutados.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Live Search Box -->
+      <div class="search-box">
+        <input type="search" id="search-input" class="search-input"
+          placeholder="Buscar chocolates, 50% cacao, 70% dark, café..." aria-label="Buscar chocolates en el catálogo"
+          autocomplete="off">
+        <svg class="search-icon" viewBox="0 0 24 24">
+          <path
+            d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <!-- Category Pills Filter (Cacao % and Chocolate Varieties) -->
+  <section class="filter-section" aria-label="Filtros de variedades de chocolate">
+    <div id="tag-pills" class="tag-pills" role="group" aria-label="Porcentaje de cacao y variedades">
+      <!-- Tag pills dynamically inserted via script.js -->
+    </div>
+  </section>
+
+  <!-- Main Product Display Area -->
+  <main class="main-content">
+    <div id="results-count" class="results-count" aria-live="polite">
+      Cargando productos de Chocolates Tony...
+    </div>
+
+    <div id="product-grid" class="product-grid">
+      <!-- Skeletons rendered initially, then populated with dynamic product cards -->
+    </div>
+  </main>
+
+  <!-- Product Detail Modal -->
+  <div id="product-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <button id="modal-close-btn" class="modal-close-btn" aria-label="Cerrar modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div id="modal-img-wrapper" class="modal-image-wrapper">
+        <!-- Modal product image inserted via JS -->
+      </div>
+
+      <div class="modal-body">
+        <span id="modal-brand" class="brand-badge">Tony</span>
+        <h2 id="modal-title" class="product-title" style="font-size: 1.3rem; margin-top: 8px;">Título del producto</h2>
+        <div id="modal-price" class="product-price" style="margin: 8px 0;">S/ 0.00</div>
+        <p id="modal-desc" class="product-description"
+          style="-webkit-line-clamp: initial; display: block; margin-bottom: 12px;">Descripción completa del producto.
+        </p>
+
+        <div id="modal-tags" class="card-tags" style="margin-bottom: 16px;"></div>
+
+        <a id="modal-whatsapp" href="#" target="_blank" rel="noopener noreferrer" class="btn-whatsapp"
+          style="margin-bottom: 12px;">
+          <svg viewBox="0 0 24 24">
+            <path
+              d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.84 9.84 0 0 0 12.04 2zm.01 16.67c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.16 8.16 0 0 1-1.26-4.38c0-4.51 3.67-8.18 8.18-8.18 2.18 0 4.24.85 5.78 2.39 1.54 1.54 2.39 3.6 2.39 5.79 0 4.51-3.67 8.18-8.18 8.18zm4.49-6.13c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.98-.15.17-.3.19-.55.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.4-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.4-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.76 2.69 4.27 3.77.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.31z" />
+          </svg>
+          Pedir este chocolate por WhatsApp
+        </a>
+
+        <div id="modal-socials" class="modal-sociallinks"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2026 Chocolates Tony - Oxapampa. Elaborado con Cacao de la zona.</p>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
