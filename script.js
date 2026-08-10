@@ -68,6 +68,7 @@
       "mainImage": "assets/images/tony/chocolate_tony_70_fresa.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
+        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
         "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
         "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
@@ -83,6 +84,7 @@
       "mainImage": "assets/images/tony/chocolate_50.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
+        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
         "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
         "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
@@ -98,6 +100,7 @@
       "mainImage": "assets/images/tony/chocolate_tony_60.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
+        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
         "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
         "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
@@ -113,6 +116,7 @@
       "mainImage": "assets/images/tony/chocolate_tony_70.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
+        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
         "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
         "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
@@ -128,6 +132,7 @@
       "mainImage": "assets/images/tony/chocolate_80.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
+        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
         "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
         "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
@@ -143,6 +148,7 @@
       "mainImage": "assets/images/tony/chocolate_arandanos.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
+        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
         "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
         "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
@@ -158,6 +164,7 @@
       "mainImage": "assets/images/tony/chocolate_miel.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
+        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
         "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
         "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
@@ -173,6 +180,7 @@
       "mainImage": "assets/images/tony/chocolate_cafe.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
+        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
         "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
         "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
@@ -441,11 +449,14 @@
     if (modalSocials) {
       let socialsHTML = '';
       if (product.socialLinks) {
-        if (product.socialLinks.facebook) {
-          socialsHTML += `<a href="${escapeAttr(product.socialLinks.facebook)}" target="_blank" rel="noopener" class="social-link">Facebook</a>`;
+        if (product.socialLinks.tiktok) {
+          socialsHTML += `<a href="${escapeAttr(product.socialLinks.tiktok)}" target="_blank" rel="noopener" class="social-link">Tiktok</a>`;
         }
         if (product.socialLinks.instagram) {
           socialsHTML += `<a href="${escapeAttr(product.socialLinks.instagram)}" target="_blank" rel="noopener" class="social-link">Instagram</a>`;
+        }
+        if (product.socialLinks.facebook) {
+          socialsHTML += `<a href="${escapeAttr(product.socialLinks.facebook)}" target="_blank" rel="noopener" class="social-link">Facebook</a>`;
         }
       }
       modalSocials.innerHTML = socialsHTML;
