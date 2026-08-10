@@ -68,8 +68,8 @@
       "mainImage": "assets/images/tony/chocolate_tony_70_fresa.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
-        "facebook": "https://facebook.com/chocolatestony",
-        "instagram": "https://instagram.com/chocolatestony"
+        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
     },
     {
@@ -83,8 +83,8 @@
       "mainImage": "assets/images/tony/chocolate_50.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
-        "facebook": "https://facebook.com/chocolatestony",
-        "instagram": "https://instagram.com/chocolatestony"
+        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
     },
     {
@@ -98,8 +98,8 @@
       "mainImage": "assets/images/tony/chocolate_tony_60.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
-        "facebook": "https://facebook.com/chocolatestony",
-        "instagram": "https://instagram.com/chocolatestony"
+        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
     },
     {
@@ -113,8 +113,8 @@
       "mainImage": "assets/images/tony/chocolate_tony_70.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
-        "facebook": "https://facebook.com/chocolatestony",
-        "instagram": "https://instagram.com/chocolatestony"
+        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
     },
     {
@@ -128,8 +128,8 @@
       "mainImage": "assets/images/tony/chocolate_80.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
-        "facebook": "https://facebook.com/chocolatestony",
-        "instagram": "https://instagram.com/chocolatestony"
+        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
     },
     {
@@ -143,8 +143,8 @@
       "mainImage": "assets/images/tony/chocolate_arandanos.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
-        "facebook": "https://facebook.com/chocolatestony",
-        "instagram": "https://instagram.com/chocolatestony"
+        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
     },
     {
@@ -158,8 +158,8 @@
       "mainImage": "assets/images/tony/chocolate_miel.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
-        "facebook": "https://facebook.com/chocolatestony",
-        "instagram": "https://instagram.com/chocolatestony"
+        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
     },
     {
@@ -173,8 +173,8 @@
       "mainImage": "assets/images/tony/chocolate_cafe.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
-        "facebook": "https://facebook.com/chocolatestony",
-        "instagram": "https://instagram.com/chocolatestony"
+        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
       }
     }
   ];
@@ -221,7 +221,7 @@
       if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
       const data = await response.json();
       allProducts = data;
-      
+
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
       } catch (e) {
@@ -343,7 +343,7 @@
   }
 
   // Global Image Error Handler (Clean & Safe)
-  window.handleImgError = function(img) {
+  window.handleImgError = function (img) {
     if (!img) return;
     img.onerror = null;
     const parent = img.parentNode;
@@ -356,7 +356,7 @@
   // Card HTML Template
   function createProductCardHTML(product) {
     const whatsappUrl = buildWhatsappUrl(product);
-    const tagsHTML = Array.isArray(product.tags) 
+    const tagsHTML = Array.isArray(product.tags)
       ? product.tags.map(t => `<span class="card-tag">${escapeHTML(t)}</span>`).join('')
       : '';
 

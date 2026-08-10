@@ -5,18 +5,29 @@
 
 :root {
   /* Color Palette - Referencia Artesanal (Siena, Tan, RosyBrown & DimGray) */
-  --color-primary: #A0522D;       /* Siena (#A0522D) */
-  --color-primary-dark: #3a1c0d;  /* Cacao Tostado Oscuro */
-  --color-accent: #D2B48C;        /* Tan (#D2B48C) */
-  --color-accent-hover: #c49d6d;  
-  --color-rosy: #BC8F8F;          /* RosyBrown (#BC8F8F) */
-  --color-gray: #696969;          /* DimGray (#696969) */
-  --color-bg: #FAF7F2;            /* Marfil pergamino cálido artesanal */
-  --color-surface: #ffffff;       /* Blanco puro superficie */
-  --color-text: #2C1810;          /* Texto Cacao Oscuro */
-  --color-text-muted: #696969;    /* DimGray (#696969) */
-  --color-border: #E8DFD8;        /* Bordes cálidos suaves */
-  --color-whatsapp: #15803d;      /* Verde WhatsApp oficial */
+  --color-primary: #A0522D;
+  /* Siena (#A0522D) */
+  --color-primary-dark: #3a1c0d;
+  /* Cacao Tostado Oscuro */
+  --color-accent: #D2B48C;
+  /* Tan (#D2B48C) */
+  --color-accent-hover: #c49d6d;
+  --color-rosy: #BC8F8F;
+  /* RosyBrown (#BC8F8F) */
+  --color-gray: #696969;
+  /* DimGray (#696969) */
+  --color-bg: #FAF7F2;
+  /* Marfil pergamino cálido artesanal */
+  --color-surface: #ffffff;
+  /* Blanco puro superficie */
+  --color-text: #2C1810;
+  /* Texto Cacao Oscuro */
+  --color-text-muted: #696969;
+  /* DimGray (#696969) */
+  --color-border: #E8DFD8;
+  /* Bordes cálidos suaves */
+  --color-whatsapp: #15803d;
+  /* Verde WhatsApp oficial */
   --color-whatsapp-hover: #166534;
   --color-skeleton: #E8DFD8;
   --color-skeleton-shimmer: #F5EFEA;
@@ -38,7 +49,9 @@
 }
 
 /* Reset & Base */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -135,7 +148,7 @@ body {
 }
 
 .site-title {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 800;
   letter-spacing: -0.02em;
 }
@@ -187,7 +200,7 @@ body {
   pointer-events: none;
 }
 
-.search-input:focus + .search-icon {
+.search-input:focus+.search-icon {
   fill: var(--color-text-muted);
 }
 
@@ -287,7 +300,8 @@ body {
 .card-image-wrapper {
   position: relative;
   width: 100%;
-  padding-top: 85%; /* Proporción limpia para contenedor de tarjetas */
+  padding-top: 85%;
+  /* Proporción limpia para contenedor de tarjetas */
   background: linear-gradient(180deg, #ffffff 0%, #f8f6f0 100%);
   overflow: hidden;
   border-bottom: 1px solid var(--color-border);
@@ -595,20 +609,23 @@ body {
 
 /* Skeleton Loading Shimmer */
 .skeleton {
-  background: linear-gradient(
-    90deg,
-    var(--color-skeleton) 25%,
-    var(--color-skeleton-shimmer) 50%,
-    var(--color-skeleton) 75%
-  );
+  background: linear-gradient(90deg,
+      var(--color-skeleton) 25%,
+      var(--color-skeleton-shimmer) 50%,
+      var(--color-skeleton) 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
   border-radius: var(--radius-sm);
 }
 
 @keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 .skeleton-card {
@@ -635,9 +652,9 @@ body {
 
 /* Footer */
 .site-footer {
-  background-color: var(--color-primary);
+  background: linear-gradient(160deg, #3a1c0d 0%, #5c2b10 100%);
   color: rgba(255, 255, 255, 0.8);
-  padding: 24px 16px;
+  padding: 36px 16px 24px;
   text-align: center;
   font-size: 0.875rem;
   margin-top: 40px;
@@ -648,8 +665,96 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0;
   align-items: center;
+}
+
+/* Footer Social Section */
+.footer-socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.footer-socials-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-accent);
+  opacity: 0.9;
+}
+
+.footer-social-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid rgba(255, 255, 255, 0.18);
+  background-color: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 600;
+  min-height: var(--min-touch-target);
+  transition: background-color 0.22s ease, border-color 0.22s ease,
+    color 0.22s ease, transform 0.15s ease, box-shadow 0.22s ease;
+  backdrop-filter: blur(4px);
+}
+
+.footer-social-btn svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+/* Instagram hover */
+.footer-social-btn--instagram:hover {
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  border-color: transparent;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(253, 29, 29, 0.35);
+}
+
+/* TikTok hover */
+.footer-social-btn--tiktok:hover {
+  background: linear-gradient(135deg, #010101 0%, #69C9D0 50%, #EE1D52 100%);
+  border-color: transparent;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(238, 29, 82, 0.35);
+}
+
+/* Facebook hover */
+.footer-social-btn--facebook:hover {
+  background-color: #1877F2;
+  border-color: #1877F2;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(24, 119, 242, 0.4);
+}
+
+.footer-divider {
+  width: 48px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin: 0 auto 16px;
+}
+
+.footer-copy {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.8rem;
 }
 
 /* Empty State */
