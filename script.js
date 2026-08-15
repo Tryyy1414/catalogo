@@ -65,7 +65,7 @@
       "category": "Chocolates",
       "tags": ["Frutados", "% Cacao"],
       "price": 23.00,
-      "mainImage": "assets/images/tony/chocolate_tony_70_fresa.webp",
+      "mainImage": "assets/images/tony/tony_chocolate_70_fresa.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
         "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
@@ -74,46 +74,62 @@
       }
     },
     {
-      "id": "tony-50-cacao",
+      "id": "tony-60-fresa",
       "brand": "Tony",
-      "title": "Chocolate 50% Cacao",
-      "description": "Chocolate suave con leche elaborado con 50% cacao orgánico oxapampino. Notas cremosas.",
+      "title": "Chocolate 60% Cacao con Fresa",
+      "description": "Chocolate semiamargo al 60% cacao fino de aroma oxapampino con trozos de fresa deshidratada. Equilibrio perfecto entre dulce y amargo.",
       "category": "Chocolates",
-      "tags": ["Con leche", "% Cacao"],
-      "price": 16.00,
-      "mainImage": "assets/images/tony/chocolate_50.webp",
-      "sellerWhatsapp": "51987654321",
-      "socialLinks": {
-        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
-        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
-        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
-      }
-    },
-    {
-      "id": "tony-60-cacao",
-      "brand": "Tony",
-      "title": "Chocolate Bitter 60% Cacao",
-      "description": "Chocolate semiamargo al 60% cacao fino de aroma oxapampino. Sabor intenso.",
-      "category": "Chocolates",
-      "tags": ["% Cacao"],
-      "price": 18.00,
-      "mainImage": "assets/images/tony/chocolate_tony_60.webp",
-      "sellerWhatsapp": "51987654321",
-      "socialLinks": {
-        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
-        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
-        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
-      }
-    },
-    {
-      "id": "tony-70-cacao",
-      "brand": "Tony",
-      "title": "Chocolate Dark 70% Cacao",
-      "description": "Chocolate amargo premium 70% pureza. Rico en antioxidantes y cacao puro.",
-      "category": "Chocolates",
-      "tags": ["% Cacao"],
+      "tags": ["Frutados", "% Cacao"],
       "price": 20.00,
-      "mainImage": "assets/images/tony/chocolate_tony_70.webp",
+      "mainImage": "assets/images/tony/tony_chocolate_60_fresa.webp",
+      "sellerWhatsapp": "51987654321",
+      "socialLinks": {
+        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+      }
+    },
+    {
+      "id": "tony-60-arandanos",
+      "brand": "Tony",
+      "title": "Chocolate 60% Cacao con Arándanos",
+      "description": "Chocolate semiamargo 60% combinado con arándanos deshidratados de la región. Notas frutales intensas y antioxidantes naturales.",
+      "category": "Chocolates",
+      "tags": ["Frutados", "% Cacao"],
+      "price": 21.00,
+      "mainImage": "assets/images/tony/tony_chocolate_60_arandanos.webp",
+      "sellerWhatsapp": "51987654321",
+      "socialLinks": {
+        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+      }
+    },
+    {
+      "id": "tony-60-quito-quito",
+      "brand": "Tony",
+      "title": "Chocolate 60% Cacao Quito Quito",
+      "description": "Chocolate semiamargo 60% con quito quito, fruta exótica de la selva peruana. Sabor único, silvestre y sorprendente.",
+      "category": "Chocolates",
+      "tags": ["Frutados", "% Cacao"],
+      "price": 22.00,
+      "mainImage": "assets/images/tony/tony_chocolate_60_quito_quito.webp",
+      "sellerWhatsapp": "51987654321",
+      "socialLinks": {
+        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+      }
+    },
+    {
+      "id": "tony-60-sabores",
+      "brand": "Tony",
+      "title": "Chocolate 60% Cacao Sabores Varios",
+      "description": "Selección de chocolates semiamargos 60% en distintos sabores. Ideal para degustar y descubrir tu preferido.",
+      "category": "Chocolates",
+      "tags": ["Frutados", "% Cacao"],
+      "price": 25.00,
+      "mainImage": "assets/images/tony/tony_chocolate_60_sabores_varios.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
         "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
@@ -124,12 +140,12 @@
     {
       "id": "tony-80-cacao",
       "brand": "Tony",
-      "title": "Chocolate Finca 80% Cacao",
-      "description": "Edición especial 80% cacao puro nativo seleccionado de finca.",
+      "title": "Chocolate 80% Cacao",
+      "description": "Edición especial 80% cacao puro nativo seleccionado de finca. Intensidad máxima, rico en antioxidantes y flavonoides.",
       "category": "Chocolates",
       "tags": ["% Cacao"],
       "price": 24.00,
-      "mainImage": "assets/images/tony/chocolate_80.webp",
+      "mainImage": "assets/images/tony/tony_chocolate_80.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
         "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
@@ -138,14 +154,14 @@
       }
     },
     {
-      "id": "tony-arandanos",
+      "id": "tony-cacao-polvo",
       "brand": "Tony",
-      "title": "Chocolate con Arándanos",
-      "description": "Chocolate semiamargo 65% combinado con arándanos deshidratados de la región.",
+      "title": "Cacao en Polvo",
+      "description": "Cacao puro en polvo 100% orgánico de Oxapampa. Sin azúcar añadida. Ideal para bebidas calientes, repostería y smoothies.",
       "category": "Chocolates",
-      "tags": ["Frutados"],
-      "price": 23.00,
-      "mainImage": "assets/images/tony/chocolate_arandanos.webp",
+      "tags": ["% Cacao"],
+      "price": 18.00,
+      "mainImage": "assets/images/tony/tony_cacao_polvo.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
         "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
@@ -154,30 +170,14 @@
       }
     },
     {
-      "id": "tony-miel-nueces",
+      "id": "tony-nibs-cacao",
       "brand": "Tony",
-      "title": "Chocolate con Miel & Nueces",
-      "description": "Chocolate 50% con leche, enriquecido con miel pura de abeja y nueces crujientes.",
+      "title": "Nibs de Cacao",
+      "description": "Trozos crujientes de cacao tostado sin procesar. Snack saludable con sabor intenso a cacao puro. Alto en magnesio y antioxidantes.",
       "category": "Chocolates",
-      "tags": ["Frutados", "Con leche"],
-      "price": 21.00,
-      "mainImage": "assets/images/tony/chocolate_miel.webp",
-      "sellerWhatsapp": "51987654321",
-      "socialLinks": {
-        "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
-        "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
-        "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
-      }
-    },
-    {
-      "id": "tony-nibs-cafe",
-      "brand": "Tony",
-      "title": "Chocolate 60% Nibs & Café",
-      "description": "Chocolate 60% cacao con nibs crujientes de cacao tostado y granos de café especial.",
-      "category": "Chocolates",
-      "tags": ["Frutados"],
-      "price": 22.00,
-      "mainImage": "assets/images/tony/chocolate_cafe.webp",
+      "tags": ["% Cacao"],
+      "price": 15.00,
+      "mainImage": "assets/images/tony/tony_nibs_cacao.webp",
       "sellerWhatsapp": "51987654321",
       "socialLinks": {
         "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
