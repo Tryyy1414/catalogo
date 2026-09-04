@@ -6,7 +6,7 @@
   'use strict';
 
   // Constants
-  const STORAGE_KEY = 'tony_chocolates_catalog_cache_v4';
+  const STORAGE_KEY = 'tony_chocolates_catalog_cache_v6';
   const DATA_URL = 'data/products.json';
 
   // Fixed Categories
@@ -47,7 +47,7 @@
     facebook:  'https://www.facebook.com/share/1D6uEoHzGq/',
     instagram: 'https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=='
   };
-  const WA = '51987654321';
+  const WA = 'faw.tong';
   const IMG = 'assets/images/tony/';
 
   /** Helper para crear entradas de producto */
@@ -60,6 +60,18 @@
       images: images.map(i => IMG + i),
       sellerWhatsapp: WA, socialLinks: SOCIAL
     };
+  }
+
+  function buildWhatsappUrl(product) {
+    const rawTarget = (product.sellerWhatsapp || WA).trim().replace(/^@/, '');
+    const msg = `Hola Chocolates Tony, me interesa: *${product.title}* (S/ ${product.price.toFixed(2)}). ¿Tienen stock disponible?`;
+    
+    // Si contiene solo números, usar wa.me/numero
+    if (/^\d+$/.test(rawTarget)) {
+      return `https://wa.me/${rawTarget}?text=${encodeURIComponent(msg)}`;
+    }
+    // Si es un username / ID de WhatsApp (ej. pjce1)
+    return `https://wa.me/${rawTarget}?text=${encodeURIComponent(msg)}`;
   }
 
   const INLINE_PRODUCTS = [
@@ -569,11 +581,6 @@
       </article>`;
   }
 
-  function buildWhatsappUrl(product) {
-    const phone = product.sellerWhatsapp || WA;
-    const msg   = `Hola Chocolates Tony, me interesa: *${product.title}* (S/ ${product.price.toFixed(2)}). ¿Tienen stock disponible?`;
-    return `https://wa.me/${phone}?text=${encodeURIComponent(msg)}`;
-  }
 
   function attachCardEvents(productsList) {
     productGrid.querySelectorAll('.btn-detail').forEach(btn => {
