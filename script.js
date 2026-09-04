@@ -532,7 +532,7 @@
       return;
     }
 
-    productGrid.innerHTML = filtered.map(product => createProductCardHTML(product)).join('');
+    productGrid.innerHTML = filtered.map((product, index) => createProductCardHTML(product, index)).join('');
     attachCardEvents(filtered);
   }
 
@@ -547,12 +547,17 @@
     img.remove();
   };
 
-  function createProductCardHTML(product) {
+  function createProductCardHTML(product, index = 0) {
     const waUrl    = buildWhatsappUrl(product);
     const tagsHTML = Array.isArray(product.tags)
       ? product.tags.map(t => `<span class="card-tag">${escapeHTML(t)}</span>`).join('')
       : '';
     const descHTML = escapeHTML(product.description).replace(/\n/g, '<br>');
+
+    // Carga prioritaria y ordenada para los primeros productos visibles
+    const isTopProduct = index < 4;
+    const loadingAttr  = isTopProduct ? 'eager' : 'lazy';
+    const priorityAttr = index < 2 ? 'fetchpriority="high"' : '';
 
     return `
       <article class="product-card" data-id="${escapeAttr(product.id)}">
@@ -560,7 +565,11 @@
           <span class="brand-badge">Tony</span>
           <img src="${escapeAttr(product.mainImage)}"
                alt="${escapeAttr(product.title)}"
-               class="card-image" loading="lazy"
+               class="card-image"
+               width="300" height="300"
+               loading="${loadingAttr}"
+               decoding="async"
+               ${priorityAttr}
                onerror="window.handleImgError(this)"/>
         </div>
         <div class="card-body">

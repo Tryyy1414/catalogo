@@ -3,7 +3,7 @@
  * Caching estático con estrategia Network-First para asegurar actualizaciones inmediatas.
  */
 
-const CACHE_NAME = 'oxapampa-catalog-v10';
+const CACHE_NAME = 'oxapampa-catalog-v11';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -42,24 +42,30 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Fetch Event - Network-first for fresh content, fallback to cache offline
+// Fetch Event - Stale-While-Revalidate strategy for ultra-fast loading with background updates
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
 
   event.respondWith(
-    fetch(event.request)
-      .then((networkResponse) => {
-        if (networkResponse && networkResponse.status === 200) {
-          const responseToCache = networkResponse.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
-          });
-        }
-        return networkResponse;
-      })
-      .catch(() => {
-        return caches.match(event.request);
-      })
+    caches.match(event.request).then((cachedResponse) => {
+      const fetchPromise = fetch(event.request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseToCache = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put(event.request, responseToCache);
+            });
+          }
+          return networkResponse;
+        })
+        .catch((err) => {
+          console.log('[ServiceWorker] Network error, returning cached fallback:', err);
+          return cachedResponse;
+        });
+
+      // Retornar caché inmediatamente si existe, de lo contrario esperar la red
+      return cachedResponse || fetchPromise;
+    })
   );
 });
 

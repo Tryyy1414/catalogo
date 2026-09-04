@@ -15,6 +15,17 @@
     content="Descubre el sabor puro de Oxapampa con Chocolates Tony. Cacao fino de aroma 60%, 70% y 80%.">
   <meta property="og:type" content="website">
 
+  <!-- Preload LCP Header Image for Instant Background Load -->
+  <link rel="preload" href="assets/wallpaper/header.webp" as="image" type="image/webp" fetchpriority="high">
+
+  <!-- Critical Header Fallback Style -->
+  <style>
+    .site-header {
+      background-color: #3a1c0d;
+      min-height: 140px;
+    }
+  </style>
+
   <!-- Stylesheet -->
   <link rel="stylesheet" href="styles.css">
 
