@@ -3,14 +3,14 @@
  * Caching estático con estrategia Network-First para asegurar actualizaciones inmediatas.
  */
 
-const CACHE_NAME = 'oxapampa-catalog-v6';
+const CACHE_NAME = 'oxapampa-catalog-v10';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './styles.css',
   './script.js',
   './data/products.json',
-  './assets/wallpaper/header.svg',
+  './assets/wallpaper/header.webp',
   './assets/wallpaper/fondo1.jpg',
   './assets/wallpaper/fondo2.jpg',
   './assets/wallpaper/fondo3.jpg'

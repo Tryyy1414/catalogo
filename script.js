@@ -6,16 +6,16 @@
   'use strict';
 
   // Constants
-  const STORAGE_KEY = 'tony_chocolates_catalog_cache_v6';
+  const STORAGE_KEY = 'tony_chocolates_catalog_cache_v7';
   const DATA_URL = 'data/products.json';
 
   // Fixed Categories
   const CATEGORIES = [
-    { id: 'all',          label: 'Todos' },
-    { id: 'Frutados',     label: 'Frutados' },
-    { id: 'Frutos secos', label: 'Frutos secos' },
-    { id: '% Cacao',      label: '% Cacao' },
-    { id: 'Packs',        label: 'Packs' }
+    { id: 'all',          label: '✨ Todos' },
+    { id: 'Frutados',     label: '🍓 Frutados' },
+    { id: 'Frutos secos', label: '🥜 Frutos secos' },
+    { id: '% Cacao',      label: '🍫 % Cacao' },
+    { id: 'Packs',        label: '🎁 Packs' }
   ];
 
   // ─────────────────────────────────────────────────────────────────────────────

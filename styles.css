@@ -111,9 +111,12 @@ body {
 
 /* Header & Brand Banner */
 .site-header {
-  background:
+  background-image:
     linear-gradient(rgba(42, 17, 7, 0.55), rgba(42, 17, 7, 0.70)),
-    url('assets/wallpaper/fondo1.jpg') center/cover no-repeat;
+    url('assets/wallpaper/header.webp');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #ffffff;
   padding: 24px 16px;
   position: sticky;
