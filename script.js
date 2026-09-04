@@ -6,7 +6,7 @@
   'use strict';
 
   // Constants
-  const STORAGE_KEY = 'tony_chocolates_catalog_cache_v3';
+  const STORAGE_KEY = 'tony_chocolates_catalog_cache_v4';
   const DATA_URL = 'data/products.json';
 
   // Fixed Categories

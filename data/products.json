@@ -1,37 +1,15 @@
 [
   {
-    "id": "chocolate_almendra_60_barra_70g",
-    "brand": "Tony",
-    "title": "Barra de Chocolate 60% Cacao con Almendra 70g",
-    "description": "Barra de chocolate 60% cacao con exquisito relleno de almendra.",
-    "category": "Chocolates",
-    "tags": [
-      "% Cacao",
-      "Frutos secos"
-    ],
-    "price": 25.0,
-    "mainImage": "assets/images/tony/chocolate_almendra_60_barra_70g.webp",
-    "images": [
-      "assets/images/tony/chocolate_almendra_60_barra_70g.webp"
-    ],
-    "sellerWhatsapp": "51987654321",
-    "socialLinks": {
-      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
-      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
-      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
-    }
-  },
-  {
     "id": "chocolate_arandanos_60_barra_50g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 60% Cacao con Arandanos 50g",
-    "description": "Barra de chocolate 60% cacao con exquisito relleno de arandanos.",
+    "title": "Barra Chocolate 60% Cacao con Arándanos 50g",
+    "description": "Barra de chocolate semiamargo 60% cacao orgánico de Oxapampa con arándanos deshidratados. Notas frutales intensas y antioxidantes naturales.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 20.0,
+    "price": 12,
     "mainImage": "assets/images/tony/chocolate_arandanos_60_barra_50g.webp",
     "images": [
       "assets/images/tony/chocolate_arandanos_60_barra_50g.webp",
@@ -45,38 +23,16 @@
     }
   },
   {
-    "id": "chocolate_arandanos_60_barra_70g",
-    "brand": "Tony",
-    "title": "Barra de Chocolate 60% Cacao con Arandanos 70g",
-    "description": "Barra de chocolate 60% cacao con exquisito relleno de arandanos.",
-    "category": "Chocolates",
-    "tags": [
-      "% Cacao",
-      "Frutados"
-    ],
-    "price": 25.0,
-    "mainImage": "assets/images/tony/chocolate_arandanos_60_barra_70g.webp",
-    "images": [
-      "assets/images/tony/chocolate_arandanos_60_barra_70g.webp"
-    ],
-    "sellerWhatsapp": "51987654321",
-    "socialLinks": {
-      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
-      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
-      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
-    }
-  },
-  {
     "id": "chocolate_fresa_60_barra_50g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 60% Cacao con Fresa 50g",
-    "description": "Barra de chocolate 60% cacao con exquisito relleno de fresa.",
+    "title": "Barra Chocolate 60% Cacao con Fresa 50g",
+    "description": "Barra de chocolate semiamargo 60% cacao de Oxapampa con trozos de fresa deshidratada. Equilibrio perfecto entre dulce y amargo.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 20.0,
+    "price": 12,
     "mainImage": "assets/images/tony/chocolate_fresa_60_barra_50g.webp",
     "images": [
       "assets/images/tony/chocolate_fresa_60_barra_50g.webp",
@@ -90,38 +46,16 @@
     }
   },
   {
-    "id": "chocolate_fresa_60_barra_70g",
-    "brand": "Tony",
-    "title": "Barra de Chocolate 60% Cacao con Fresa 70g",
-    "description": "Barra de chocolate 60% cacao con exquisito relleno de fresa.",
-    "category": "Chocolates",
-    "tags": [
-      "% Cacao",
-      "Frutados"
-    ],
-    "price": 25.0,
-    "mainImage": "assets/images/tony/chocolate_fresa_60_barra_70g.webp",
-    "images": [
-      "assets/images/tony/chocolate_fresa_60_barra_70g.webp"
-    ],
-    "sellerWhatsapp": "51987654321",
-    "socialLinks": {
-      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
-      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
-      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
-    }
-  },
-  {
     "id": "chocolate_kiwi_60_barra_50g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 60% Cacao con Kiwi 50g",
-    "description": "Barra de chocolate 60% cacao con exquisito relleno de kiwi.",
+    "title": "Barra Chocolate 60% Cacao con Kiwi 50g",
+    "description": "Barra de chocolate semiamargo 60% cacao con relleno de kiwi deshidratado. Sabor frutal exótico con el toque intenso del cacao oxapampino.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 20.0,
+    "price": 12,
     "mainImage": "assets/images/tony/chocolate_kiwi_60_barra_50g.webp",
     "images": [
       "assets/images/tony/chocolate_kiwi_60_barra_50g.webp",
@@ -135,38 +69,16 @@
     }
   },
   {
-    "id": "chocolate_pecana_60_barra_70g",
-    "brand": "Tony",
-    "title": "Barra de Chocolate 60% Cacao con Pecana 70g",
-    "description": "Barra de chocolate 60% cacao con exquisito relleno de pecana.",
-    "category": "Chocolates",
-    "tags": [
-      "% Cacao",
-      "Frutos secos"
-    ],
-    "price": 25.0,
-    "mainImage": "assets/images/tony/chocolate_pecana_60_barra_70g.webp",
-    "images": [
-      "assets/images/tony/chocolate_pecana_60_barra_70g.webp"
-    ],
-    "sellerWhatsapp": "51987654321",
-    "socialLinks": {
-      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
-      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
-      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
-    }
-  },
-  {
     "id": "chocolate_quitoquito_60_barra_50g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 60% Cacao con Quitoquito 50g",
-    "description": "Barra de chocolate 60% cacao con exquisito relleno de quito quito.",
+    "title": "Barra Chocolate 60% Cacao con Quito Quito 50g",
+    "description": "Barra de chocolate semiamargo 60% cacao con quito quito, fruta silvestre exótica de la selva peruana. Sabor único y sorprendente.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 20.0,
+    "price": 12,
     "mainImage": "assets/images/tony/chocolate_quitoquito_60_barra_50g.webp",
     "images": [
       "assets/images/tony/chocolate_quitoquito_60_barra_50g.webp",
@@ -183,59 +95,16 @@
     }
   },
   {
-    "id": "chocolate_70_barra_70g",
-    "brand": "Tony",
-    "title": "Barra de Chocolate 70% Cacao 70g",
-    "description": "Deliciosa barra de chocolate 70% cacao orgánico.",
-    "category": "Chocolates",
-    "tags": [
-      "% Cacao"
-    ],
-    "price": 25.0,
-    "mainImage": "assets/images/tony/chocolate_70_barra_70g.webp",
-    "images": [
-      "assets/images/tony/chocolate_70_barra_70g.webp"
-    ],
-    "sellerWhatsapp": "51987654321",
-    "socialLinks": {
-      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
-      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
-      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
-    }
-  },
-  {
-    "id": "chocolate_arandano_70_barra_70g",
-    "brand": "Tony",
-    "title": "Barra de Chocolate 70% Cacao con Arandano 70g",
-    "description": "Barra de chocolate 70% cacao con exquisito relleno de arandano.",
-    "category": "Chocolates",
-    "tags": [
-      "% Cacao",
-      "Frutados"
-    ],
-    "price": 25.0,
-    "mainImage": "assets/images/tony/chocolate_arandano_70_barra_70g.webp",
-    "images": [
-      "assets/images/tony/chocolate_arandano_70_barra_70g.webp"
-    ],
-    "sellerWhatsapp": "51987654321",
-    "socialLinks": {
-      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
-      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
-      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
-    }
-  },
-  {
     "id": "chocolate_arandanos_70_barra_50g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 70% Cacao con Arandanos 50g",
-    "description": "Barra de chocolate 70% cacao con exquisito relleno de arandanos.",
+    "title": "Barra Chocolate 70% Cacao con Arándanos 50g",
+    "description": "Barra de chocolate amargo 70% cacao orgánico de Oxapampa con arándanos deshidratados. Intensidad del cacao con notas frutales vibrantes.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 20.0,
+    "price": 12,
     "mainImage": "assets/images/tony/chocolate_arandanos_70_barra_50g.webp",
     "images": [
       "assets/images/tony/chocolate_arandanos_70_barra_50g.webp",
@@ -252,14 +121,14 @@
   {
     "id": "chocolate_fresa_70_barra_50g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 70% Cacao con Fresa 50g",
-    "description": "Barra de chocolate 70% cacao con exquisito relleno de fresa.",
+    "title": "Barra Chocolate 70% Cacao con Fresa 50g",
+    "description": "Barra de chocolate amargo 70% cacao con trozos de fresa deshidratada. Combinación frutal e intensa de cacao puro oxapampino.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 20.0,
+    "price": 12,
     "mainImage": "assets/images/tony/chocolate_fresa_70_barra_50g.webp",
     "images": [
       "assets/images/tony/chocolate_fresa_70_barra_50g.webp",
@@ -274,16 +143,235 @@
     }
   },
   {
-    "id": "chocolate_fresa_70_barra_70g",
+    "id": "chocolate_kiwi_70_barra_50g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 70% Cacao con Fresa 70g",
-    "description": "Barra de chocolate 70% cacao con exquisito relleno de fresa.",
+    "title": "Barra Chocolate 70% Cacao con Kiwi 50g",
+    "description": "Barra de chocolate amargo 70% cacao con kiwi deshidratado. Contraste exótico entre la potencia del cacao y el kiwi.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 25.0,
+    "price": 12,
+    "mainImage": "assets/images/tony/chocolate_kiwi_70_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_kiwi_70_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_quitoquito_70_barra_50g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 70% Cacao con Quito Quito 50g",
+    "description": "Barra de chocolate amargo 70% cacao con quito quito, fruta silvestre de la selva peruana. Sabor silvestre con intensidad máxima.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutados"
+    ],
+    "price": 12,
+    "mainImage": "assets/images/tony/chocolate_quitoquito_60_barra_50g.webp",
+    "images": [
+      "assets/images/tony/chocolate_quitoquito_60_barra_50g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_arandanos_60_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 60% Cacao con Arándanos 70g",
+    "description": "Barra grande de chocolate semiamargo 60% cacao con arándanos deshidratados. Antioxidante y delicioso.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutados"
+    ],
+    "price": 16,
+    "mainImage": "assets/images/tony/chocolate_arandanos_60_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_arandanos_60_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_fresa_60_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 60% Cacao con Fresa 70g",
+    "description": "Barra grande de chocolate semiamargo 60% cacao con fresa deshidratada. Presentación perfecta para regalar.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutados"
+    ],
+    "price": 16,
+    "mainImage": "assets/images/tony/chocolate_fresa_60_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_fresa_60_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_almendra_60_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 60% Cacao con Almendra 70g",
+    "description": "Barra de chocolate semiamargo 60% cacao con almendras enteras seleccionadas. Textura crujiente y sabor equilibrado.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutos secos"
+    ],
+    "price": 16,
+    "mainImage": "assets/images/tony/chocolate_almendra_60_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_almendra_60_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_pecana_60_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 60% Cacao con Pecana 70g",
+    "description": "Barra de chocolate semiamargo 60% cacao con pecanas seleccionadas. Crujiente y con personalidad.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutos secos"
+    ],
+    "price": 16,
+    "mainImage": "assets/images/tony/chocolate_pecana_60_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_pecana_60_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_pasas_60_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 60% Cacao con Pasas 70g",
+    "description": "Barra de chocolate semiamargo 60% cacao con pasas selectas. Dulzura natural de la uva con el suave amargor del cacao.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutados"
+    ],
+    "price": 16,
+    "mainImage": "assets/images/tony/chocolate_pasas_70_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_pasas_70_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_nueces_60_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 60% Cacao con Nueces 70g",
+    "description": "Barra de chocolate semiamargo 60% cacao con nueces seleccionadas. Combinación clásica de cacao intenso y fruto seco.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutos secos"
+    ],
+    "price": 16,
+    "mainImage": "assets/images/tony/chocolate_almendra_60_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_almendra_60_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_70_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 70% Cacao Puro 70g",
+    "description": "Barra pura de chocolate amargo 70% cacao nativo de Oxapampa. Sin rellenos, para apreciar el sabor auténtico del cacao de finca.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao"
+    ],
+    "price": 16,
+    "mainImage": "assets/images/tony/chocolate_70_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_70_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_arandano_70_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 70% Cacao con Arándano 70g",
+    "description": "Barra de chocolate amargo 70% cacao con arándano deshidratado. Intensidad del cacao oxapampino con notas frutales.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutados"
+    ],
+    "price": 16,
+    "mainImage": "assets/images/tony/chocolate_arandano_70_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_arandano_70_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_fresa_70_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 70% Cacao con Fresa 70g",
+    "description": "Barra grande de chocolate amargo 70% cacao con fresa deshidratada. Combinación clásica de chocolate intenso y fruta.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutados"
+    ],
+    "price": 16,
     "mainImage": "assets/images/tony/chocolate_fresa_70_barra_70g.webp",
     "images": [
       "assets/images/tony/chocolate_fresa_70_barra_70g.webp"
@@ -298,14 +386,14 @@
   {
     "id": "chocolate_kiwi_70_barra_70g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 70% Cacao con Kiwi 70g",
-    "description": "Barra de chocolate 70% cacao con exquisito relleno de kiwi.",
+    "title": "Barra Chocolate 70% Cacao con Kiwi 70g",
+    "description": "Barra de chocolate amargo 70% cacao con kiwi deshidratado. Sabor frutal exótico con la intensidad del cacao nativo.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 25.0,
+    "price": 16,
     "mainImage": "assets/images/tony/chocolate_kiwi_70_barra_70g.webp",
     "images": [
       "assets/images/tony/chocolate_kiwi_70_barra_70g.webp"
@@ -320,14 +408,14 @@
   {
     "id": "chocolate_pasas_70_barra_70g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 70% Cacao con Pasas 70g",
-    "description": "Barra de chocolate 70% cacao con exquisito relleno de pasas.",
+    "title": "Barra Chocolate 70% Cacao con Pasas 70g",
+    "description": "Barra de chocolate amargo 70% cacao con pasas seleccionadas. Dulzura natural de la uva pasa con el amargor del cacao puro.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 25.0,
+    "price": 16,
     "mainImage": "assets/images/tony/chocolate_pasas_70_barra_70g.webp",
     "images": [
       "assets/images/tony/chocolate_pasas_70_barra_70g.webp",
@@ -343,14 +431,14 @@
   {
     "id": "chocolate_pecana_70_barra_70g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 70% Cacao con Pecana 70g",
-    "description": "Barra de chocolate 70% cacao con exquisito relleno de pecana.",
+    "title": "Barra Chocolate 70% Cacao con Pecana 70g",
+    "description": "Barra de chocolate amargo 70% cacao con pecanas enteras. Combinación perfecta de intensidad y textura crujiente.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutos secos"
     ],
-    "price": 25.0,
+    "price": 16,
     "mainImage": "assets/images/tony/chocolate_pecana_70_barra_70g.webp",
     "images": [
       "assets/images/tony/chocolate_pecana_70_barra_70g.webp"
@@ -363,15 +451,81 @@
     }
   },
   {
+    "id": "chocolate_almendra_70_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 70% Cacao con Almendra 70g",
+    "description": "Barra de chocolate amargo 70% cacao con almendras enteras seleccionadas. Intensidad del cacao con la cremosidad de la almendra.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutos secos"
+    ],
+    "price": 16,
+    "mainImage": "assets/images/tony/chocolate_almendra_60_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_almendra_60_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_nueces_70_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 70% Cacao con Nueces 70g",
+    "description": "Barra de chocolate amargo 70% cacao con nueces seleccionadas. El clásico maridaje de cacao intenso con fruto seco.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutos secos"
+    ],
+    "price": 16,
+    "mainImage": "assets/images/tony/chocolate_pecana_70_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_pecana_70_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "chocolate_manzana_70_barra_70g",
+    "brand": "Tony",
+    "title": "Barra Chocolate 70% Cacao con Manzana 70g",
+    "description": "Barra de chocolate amargo 70% cacao con manzana deshidratada. Contraste frutal dulce con la profundidad del cacao oxapampino.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao",
+      "Frutados"
+    ],
+    "price": 16,
+    "mainImage": "assets/images/tony/chocolate_fresa_70_barra_70g.webp",
+    "images": [
+      "assets/images/tony/chocolate_fresa_70_barra_70g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
     "id": "chocolate_80_barra_70g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 80% Cacao 70g",
-    "description": "Deliciosa barra de chocolate 80% cacao orgánico.",
+    "title": "Barra Chocolate 80% Cacao Puro 70g",
+    "description": "Barra pura de chocolate extra amargo 80% cacao nativo de Oxapampa. Intensidad máxima, rico en antioxidantes y flavonoides.",
     "category": "Chocolates",
     "tags": [
       "% Cacao"
     ],
-    "price": 25.0,
+    "price": 17,
     "mainImage": "assets/images/tony/chocolate_80_barra_70g.webp",
     "images": [
       "assets/images/tony/chocolate_80_barra_70g.webp"
@@ -386,14 +540,14 @@
   {
     "id": "chocolate_arandanos_80_barra_70g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 80% Cacao con Arandanos 70g",
-    "description": "Barra de chocolate 80% cacao con exquisito relleno de arandanos.",
+    "title": "Barra Chocolate 80% Cacao con Arándanos 70g",
+    "description": "Barra de chocolate extra amargo 80% cacao con arándanos deshidratados. La máxima expresión del cacao con un toque frutal.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 25.0,
+    "price": 17,
     "mainImage": "assets/images/tony/chocolate_arandanos_80_barra_70g.webp",
     "images": [
       "assets/images/tony/chocolate_arandanos_80_barra_70g.webp"
@@ -408,14 +562,14 @@
   {
     "id": "chocolate_kiwi_80_barra_70g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 80% Cacao con Kiwi 70g",
-    "description": "Barra de chocolate 80% cacao con exquisito relleno de kiwi.",
+    "title": "Barra Chocolate 80% Cacao con Kiwi 70g",
+    "description": "Barra de chocolate extra amargo 80% cacao con kiwi deshidratado. Contraste exótico entre la potencia del cacao y el kiwi.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 25.0,
+    "price": 17,
     "mainImage": "assets/images/tony/chocolate_kiwi_80_barra_70g.webp",
     "images": [
       "assets/images/tony/chocolate_kiwi_80_barra_70g.webp"
@@ -430,14 +584,14 @@
   {
     "id": "chocolate_pasas_80_barra_70g",
     "brand": "Tony",
-    "title": "Barra de Chocolate 80% Cacao con Pasas 70g",
-    "description": "Barra de chocolate 80% cacao con exquisito relleno de pasas.",
+    "title": "Barra Chocolate 80% Cacao con Pasas 70g",
+    "description": "Barra de chocolate extra amargo 80% cacao con pasas selectas. Dulzura natural con potencia de cacao al máximo.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
       "Frutados"
     ],
-    "price": 25.0,
+    "price": 17,
     "mainImage": "assets/images/tony/chocolate_pasas_80_barra_70g.webp",
     "images": [
       "assets/images/tony/chocolate_pasas_80_barra_70g.webp"
@@ -450,16 +604,58 @@
     }
   },
   {
-    "id": "cacao_polvo_180g",
+    "id": "chocolate_mani_70_20g",
     "brand": "Tony",
-    "title": "Cacao en Polvo 180g",
-    "description": "Cacao puro en polvo 100% orgánico de Oxapampa. Presentación de 180g.",
+    "title": "Chocolate 70% Cacao con Maní 20g",
+    "description": "Pequeña tableta de chocolate amargo 70% cacao con maní tostado. Snack perfecto para llevar, crujiente y con sabor intenso.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
-      "Polvo"
+      "Frutos secos"
     ],
-    "price": 25.0,
+    "price": 4,
+    "mainImage": "assets/images/tony/chocolate_mani_70_20g.webp",
+    "images": [
+      "assets/images/tony/chocolate_mani_70_20g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "cacao_polvo_90g",
+    "brand": "Tony",
+    "title": "Cacao en Polvo 90g",
+    "description": "Cacao puro en polvo 100% orgánico de Oxapampa. Sin azúcar añadida. Ideal para bebidas calientes, repostería y smoothies. Presentación 90g.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao"
+    ],
+    "price": 10,
+    "mainImage": "assets/images/tony/cacao_polvo_90g.webp",
+    "images": [
+      "assets/images/tony/cacao_polvo_90g.webp"
+    ],
+    "sellerWhatsapp": "51987654321",
+    "socialLinks": {
+      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
+      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
+      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
+    }
+  },
+  {
+    "id": "cacao_polvo_180g",
+    "brand": "Tony",
+    "title": "Cacao en Polvo 180g",
+    "description": "Cacao puro en polvo 100% orgánico de Oxapampa. Sin azúcar añadida. Ideal para bebidas calientes, repostería y smoothies. Presentación familiar 180g.",
+    "category": "Chocolates",
+    "tags": [
+      "% Cacao"
+    ],
+    "price": 18,
     "mainImage": "assets/images/tony/cacao_polvo_180g.webp",
     "images": [
       "assets/images/tony/cacao_polvo_180g.webp",
@@ -473,19 +669,18 @@
     }
   },
   {
-    "id": "cacao_polvo_90g",
+    "id": "nibs_cacao_100g",
     "brand": "Tony",
-    "title": "Cacao en Polvo 90g",
-    "description": "Cacao puro en polvo 100% orgánico de Oxapampa. Presentación de 90g.",
+    "title": "Nibs de Cacao Tostado y Triturado 100g",
+    "description": "Trozos crujientes de cacao tostado y triturado sin procesar. Snack saludable con sabor intenso a cacao puro. Alto en magnesio y antioxidantes. Presentación 100g.",
     "category": "Chocolates",
     "tags": [
-      "% Cacao",
-      "Polvo"
+      "% Cacao"
     ],
-    "price": 15.0,
-    "mainImage": "assets/images/tony/cacao_polvo_90g.webp",
+    "price": 10,
+    "mainImage": "assets/images/tony/nibs_cacao.webp",
     "images": [
-      "assets/images/tony/cacao_polvo_90g.webp"
+      "assets/images/tony/nibs_cacao.webp"
     ],
     "sellerWhatsapp": "51987654321",
     "socialLinks": {
@@ -495,38 +690,15 @@
     }
   },
   {
-    "id": "chocolate_mani_70_20g",
+    "id": "nibs_cacao_250g",
     "brand": "Tony",
-    "title": "Chocolate 70% Cacao con Mani",
-    "description": "Chocolate 70% cacao. con Mani.",
+    "title": "Nibs de Cacao Tostado y Triturado 250g",
+    "description": "Trozos crujientes de cacao tostado y triturado sin procesar. Snack saludable con sabor intenso a cacao puro. Alto en magnesio y antioxidantes. Presentación familiar 250g.",
     "category": "Chocolates",
     "tags": [
-      "% Cacao",
-      "Frutos secos"
+      "% Cacao"
     ],
-    "price": 10.0,
-    "mainImage": "assets/images/tony/chocolate_mani_70_20g.webp",
-    "images": [
-      "assets/images/tony/chocolate_mani_70_20g.webp"
-    ],
-    "sellerWhatsapp": "51987654321",
-    "socialLinks": {
-      "tiktok": "https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1",
-      "facebook": "https://www.facebook.com/share/1D6uEoHzGq/",
-      "instagram": "https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=="
-    }
-  },
-  {
-    "id": "nibs_cacao",
-    "brand": "Tony",
-    "title": "Nibs de Cacao",
-    "description": "Trozos crujientes de cacao tostado sin procesar. Snack saludable.",
-    "category": "Chocolates",
-    "tags": [
-      "% Cacao",
-      "Snack"
-    ],
-    "price": 15.0,
+    "price": 22,
     "mainImage": "assets/images/tony/nibs_cacao.webp",
     "images": [
       "assets/images/tony/nibs_cacao.webp"
@@ -542,13 +714,12 @@
     "id": "pasta_cacao_100g",
     "brand": "Tony",
     "title": "Pasta de Cacao 100g",
-    "description": "Pasta de cacao orgánico de Oxapampa. Presentación de 100g.",
+    "description": "Pasta de cacao orgánico 100% puro de Oxapampa. Sin aditivos. Ideal para repostería artesanal o consumo directo. Presentación 100g.",
     "category": "Chocolates",
     "tags": [
-      "% Cacao",
-      "Pasta"
+      "% Cacao"
     ],
-    "price": 18.0,
+    "price": 10,
     "mainImage": "assets/images/tony/pasta_cacao_100g.webp",
     "images": [
       "assets/images/tony/pasta_cacao_100g.webp",
@@ -565,14 +736,13 @@
   {
     "id": "pack1",
     "brand": "Tony",
-    "title": "Pack 1",
-    "description": "Barra de chocolate de 70% de cacao de 50 gramos relleno de arandanos.\nBarra de chocolate de 70% de cacao de 50 gramos relleno de fresa.\nBarra de chocolate de 60% de cacao de 50 gramos relleno de quito quito.",
+    "title": "Pack 1 – Mix 50g (3 unidades)",
+    "description": "• Chocolate 70% cacao con Arándanos 50g — S/ 12\n• Chocolate 70% cacao con Fresa 50g — S/ 12\n• Chocolate 60% cacao con Quito Quito 50g — S/ 12\n\nTotal: S/ 36",
     "category": "Packs",
     "tags": [
-      "Packs",
-      "Regalo"
+      "Packs"
     ],
-    "price": 75.0,
+    "price": 36,
     "mainImage": "assets/images/tony/pack1.webp",
     "images": [
       "assets/images/tony/pack1.webp",
@@ -589,14 +759,13 @@
   {
     "id": "pack2",
     "brand": "Tony",
-    "title": "Pack 2",
-    "description": "Barra de chocolate de 60% de cacao de 50 gramos relleno de arandanos.\nBarra de chocolate de 60% de cacao de 50 gramos relleno de fresa.\nBarra de chocolate de 60% de cacao de 50 gramos relleno de kiwi.",
+    "title": "Pack 2 – Mix 60% 50g (3 unidades)",
+    "description": "• Chocolate 60% cacao con Arándanos 50g — S/ 12\n• Chocolate 60% cacao con Fresa 50g — S/ 12\n• Chocolate 60% cacao con Kiwi 50g — S/ 12\n\nTotal: S/ 36",
     "category": "Packs",
     "tags": [
-      "Packs",
-      "Regalo"
+      "Packs"
     ],
-    "price": 75.0,
+    "price": 36,
     "mainImage": "assets/images/tony/pack2.webp",
     "images": [
       "assets/images/tony/pack2.webp",
@@ -613,14 +782,13 @@
   {
     "id": "pack3",
     "brand": "Tony",
-    "title": "Pack 3",
-    "description": "Barra de chocolate de 70% de cacao de 50 gramos relleno de fresa.\nBarra de chocolate de 70% de cacao de 50 gramos relleno de arandanos.\nBarra de chocolate de 70% de cacao de 50 gramos relleno de kiwi.\nBarra de chocolate de 70% de cacao de 50 gramos relleno de quito quito.",
+    "title": "Pack 3 – Mix 70% 50g (4 unidades)",
+    "description": "• Chocolate 70% cacao con Fresa 50g — S/ 12\n• Chocolate 70% cacao con Arándanos 50g — S/ 12\n• Chocolate 70% cacao con Kiwi 50g — S/ 12\n• Chocolate 70% cacao con Quito Quito 50g — S/ 12\n\nTotal: S/ 48",
     "category": "Packs",
     "tags": [
-      "Packs",
-      "Regalo"
+      "Packs"
     ],
-    "price": 75.0,
+    "price": 48,
     "mainImage": "assets/images/tony/pack3.webp",
     "images": [
       "assets/images/tony/pack3.webp",
@@ -636,14 +804,13 @@
   {
     "id": "pack4",
     "brand": "Tony",
-    "title": "Pack 4",
-    "description": "Barra de chocolate de 70% de cacao de 70 gramos relleno de pasas.\nBarra de chocolate de 70% de cacao de 70 gramos relleno de pecana.\nBarra de chocolate de 70% de cacao de 70 gramos relleno de kiwi.",
+    "title": "Pack 4 – Mix 70% 70g Frutos (3 unidades)",
+    "description": "• Chocolate 70% cacao con Pasas 70g — S/ 16\n• Chocolate 70% cacao con Pecana 70g — S/ 16\n• Chocolate 70% cacao con Kiwi 70g — S/ 16\n\nTotal: S/ 48",
     "category": "Packs",
     "tags": [
-      "Packs",
-      "Regalo"
+      "Packs"
     ],
-    "price": 75.0,
+    "price": 48,
     "mainImage": "assets/images/tony/pack4.webp",
     "images": [
       "assets/images/tony/pack4.webp"
@@ -658,14 +825,13 @@
   {
     "id": "pack5",
     "brand": "Tony",
-    "title": "Pack 5",
-    "description": "Barra de chocolate de 70% de cacao de 70 gramos relleno de fresa.\nBarra de chocolate de 70% de cacao de 70 gramos relleno de arandanos.\nBarra de chocolate de 70% de cacao de 70 gramos.",
+    "title": "Pack 5 – Mix 70% 70g Surtido (3 unidades)",
+    "description": "• Chocolate 70% cacao con Fresa 70g — S/ 16\n• Chocolate 70% cacao con Arándanos 70g — S/ 16\n• Chocolate 70% cacao Puro 70g — S/ 16\n\nTotal: S/ 48",
     "category": "Packs",
     "tags": [
-      "Packs",
-      "Regalo"
+      "Packs"
     ],
-    "price": 75.0,
+    "price": 48,
     "mainImage": "assets/images/tony/pack5.webp",
     "images": [
       "assets/images/tony/pack5.webp"
@@ -680,14 +846,13 @@
   {
     "id": "pack6",
     "brand": "Tony",
-    "title": "Pack 6",
-    "description": "Barra de chocolate de 80% de cacao de 70 gramos.\nBarra de chocolate de 80% de cacao de 70 gramos relleno de kiwi.\nBarra de chocolate de 80% de cacao de 70 gramos relleno de arandanos.\nBarra de chocolate de 80% de cacao de 70 gramos relleno de pasas.",
+    "title": "Pack 6 – Mix 80% 70g (4 unidades)",
+    "description": "• Chocolate 80% cacao Puro 70g — S/ 17\n• Chocolate 80% cacao con Kiwi 70g — S/ 17\n• Chocolate 80% cacao con Arándanos 70g — S/ 17\n• Chocolate 80% cacao con Pasas 70g — S/ 17\n\nTotal: S/ 68",
     "category": "Packs",
     "tags": [
-      "Packs",
-      "Regalo"
+      "Packs"
     ],
-    "price": 75.0,
+    "price": 68,
     "mainImage": "assets/images/tony/pack6.webp",
     "images": [
       "assets/images/tony/pack6.webp",
@@ -703,14 +868,13 @@
   {
     "id": "pack7",
     "brand": "Tony",
-    "title": "Pack 7",
-    "description": "Barra de chocolate de 60% de cacao de 70 gramos relleno de fresa.\nBarra de chocolate de 60% de cacao de 70 gramos relleno de arandanos.\nBarra de chocolate de 60% de cacao de 70 gramos relleno de almendra.\nBarra de chocolate de 60% de cacao de 70 gramos relleno de pecana.",
+    "title": "Pack 7 – Mix 60% 70g Surtido (4 unidades)",
+    "description": "• Chocolate 60% cacao con Fresa 70g — S/ 16\n• Chocolate 60% cacao con Arándanos 70g — S/ 16\n• Chocolate 60% cacao con Almendra 70g — S/ 16\n• Chocolate 60% cacao con Pecana 70g — S/ 16\n\nTotal: S/ 64",
     "category": "Packs",
     "tags": [
-      "Packs",
-      "Regalo"
+      "Packs"
     ],
-    "price": 75.0,
+    "price": 64,
     "mainImage": "assets/images/tony/pack7.webp",
     "images": [
       "assets/images/tony/pack7.webp",

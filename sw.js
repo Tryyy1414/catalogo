@@ -1,9 +1,9 @@
 /**
  * Service Worker - Catálogo Virtual Oxapampa
- * Caching estático y estampa offline para redes lentas (2G/3G).
+ * Caching estático con estrategia Network-First para asegurar actualizaciones inmediatas.
  */
 
-const CACHE_NAME = 'oxapampa-catalog-v1';
+const CACHE_NAME = 'oxapampa-catalog-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -38,40 +38,24 @@ self.addEventListener('activate', (event) => {
   );
 });
 
-// Fetch Event - Stale-while-revalidate / Network-first fallback
+// Fetch Event - Network-first for fresh content, fallback to cache offline
 self.addEventListener('fetch', (event) => {
-  // Only handle GET requests
   if (event.request.method !== 'GET') return;
 
   event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      // Return cached asset if found
-      if (cachedResponse) {
-        // Asynchronously update cache from network in background
-        fetch(event.request).then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200) {
-            caches.open(CACHE_NAME).then((cache) => {
-              cache.put(event.request, networkResponse);
-            });
-          }
-        }).catch(() => {/* Ignore network errors offline */});
-
-        return cachedResponse;
-      }
-
-      // If not in cache, fetch from network and cache
-      return fetch(event.request).then((networkResponse) => {
-        if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
-          return networkResponse;
+    fetch(event.request)
+      .then((networkResponse) => {
+        if (networkResponse && networkResponse.status === 200) {
+          const responseToCache = networkResponse.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
+          });
         }
-
-        const responseToCache = networkResponse.clone();
-        caches.open(CACHE_NAME).then((cache) => {
-          cache.put(event.request, responseToCache);
-        });
-
         return networkResponse;
-      });
-    })
+      })
+      .catch(() => {
+        return caches.match(event.request);
+      })
   );
 });
+
