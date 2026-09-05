@@ -1,21 +1,21 @@
 /**
- * Catálogo Virtual Chocolates Tony - Lógica Frontend
+ * Catálogo Virtual Chocolates Tonny - Lógica Frontend
  */
 
 (function () {
   'use strict';
 
   // Constants
-  const STORAGE_KEY = 'tony_chocolates_catalog_cache_v7';
+  const STORAGE_KEY = 'Tonny_chocolates_catalog_cache_v7';
   const DATA_URL = 'data/products.json';
 
   // Fixed Categories
   const CATEGORIES = [
-    { id: 'all',          label: '✨ Todos' },
-    { id: 'Frutados',     label: '🍓 Frutados' },
+    { id: 'all', label: '✨ Todos' },
+    { id: 'Frutados', label: '🍓 Frutados' },
     { id: 'Frutos secos', label: '🥜 Frutos secos' },
-    { id: '% Cacao',      label: '🍫 % Cacao' },
-    { id: 'Packs',        label: '🎁 Packs' }
+    { id: '% Cacao', label: '🍫 % Cacao' },
+    { id: 'Packs', label: '🎁 Packs' }
   ];
 
   // ─────────────────────────────────────────────────────────────────────────────
@@ -43,17 +43,17 @@
   // ─────────────────────────────────────────────────────────────────────────────
 
   const SOCIAL = {
-    tiktok:    'https://www.tiktok.com/@chocolatetony1?_t=8oO1gCgX6e7&_r=1',
-    facebook:  'https://www.facebook.com/share/1D6uEoHzGq/',
+    tiktok: 'https://www.tiktok.com/@chocolateTonny1?_t=8oO1gCgX6e7&_r=1',
+    facebook: 'https://www.facebook.com/share/1D6uEoHzGq/',
     instagram: 'https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=='
   };
   const WA = 'faw.tong';
-  const IMG = 'assets/images/tony/';
+  const IMG = 'assets/images/Tonny/';
 
   /** Helper para crear entradas de producto */
   function p(id, title, description, tags, price, images) {
     return {
-      id, brand: 'Tony', title, description,
+      id, brand: 'Tonny', title, description,
       category: tags.includes('Packs') ? 'Packs' : 'Chocolates',
       tags, price,
       mainImage: IMG + images[0],
@@ -64,8 +64,8 @@
 
   function buildWhatsappUrl(product) {
     const rawTarget = (product.sellerWhatsapp || WA).trim().replace(/^@/, '');
-    const msg = `Hola Chocolates Tony, me interesa: *${product.title}* (S/ ${product.price.toFixed(2)}). ¿Tienen stock disponible?`;
-    
+    const msg = `Hola Chocolates Tonny, me interesa: *${product.title}* (S/ ${product.price.toFixed(2)}). ¿Tienen stock disponible?`;
+
     // Si contiene solo números, usar wa.me/numero
     if (/^\d+$/.test(rawTarget)) {
       return `https://wa.me/${rawTarget}?text=${encodeURIComponent(msg)}`;
@@ -102,10 +102,10 @@
       'Barra de chocolate semiamargo 60% cacao con quito quito, fruta silvestre exótica de la selva peruana. Sabor único y sorprendente.',
       ['% Cacao', 'Frutados'], 12.00,
       ['chocolate_quitoquito_60_barra_50g.webp',
-       'chocolate_quitoquito_60_barra_50g_2.webp',
-       'chocolate_quitoquito_60_barra_50g_3.webp',
-       'chocolate_quitoquito_60_barra_50g_4.webp',
-       'chocolate_quitoquito_60_barra_50g_5.webp']),
+        'chocolate_quitoquito_60_barra_50g_2.webp',
+        'chocolate_quitoquito_60_barra_50g_3.webp',
+        'chocolate_quitoquito_60_barra_50g_4.webp',
+        'chocolate_quitoquito_60_barra_50g_5.webp']),
 
     // ══════════════════════════════════════════════════════════════════════════
     // 70 % – 50 g  → S/ 12
@@ -115,16 +115,16 @@
       'Barra de chocolate amargo 70% cacao orgánico de Oxapampa con arándanos deshidratados. Intensidad del cacao con notas frutales vibrantes.',
       ['% Cacao', 'Frutados'], 12.00,
       ['chocolate_arandanos_70_barra_50g.webp',
-       'chocolate_arandanos_70_barra_50g_2.webp',
-       'chocolate_arandanos_70_barra_50g_3.webp']),
+        'chocolate_arandanos_70_barra_50g_2.webp',
+        'chocolate_arandanos_70_barra_50g_3.webp']),
 
     p('chocolate_fresa_70_barra_50g',
       'Barra Chocolate 70% Cacao con Fresa 50g',
       'Barra de chocolate amargo 70% cacao con trozos de fresa deshidratada. Combinación frutal e intensa de cacao puro oxapampino.',
       ['% Cacao', 'Frutados'], 12.00,
       ['chocolate_fresa_70_barra_50g.webp',
-       'chocolate_fresa_70_barra_50g_2.webp',
-       'chocolate_fresa_70_barra_50g_3.webp']),
+        'chocolate_fresa_70_barra_50g_2.webp',
+        'chocolate_fresa_70_barra_50g_3.webp']),
 
     p('chocolate_kiwi_70_barra_50g',
       'Barra Chocolate 70% Cacao con Kiwi 50g',
@@ -352,27 +352,27 @@
   // ESTADO
   // ─────────────────────────────────────────────────────────────────────────────
   let allProducts = [];
-  let currentTag  = 'all';
+  let currentTag = 'all';
   let searchQuery = '';
 
   // DOM Elements
-  const productGrid       = document.getElementById('product-grid');
-  const resultsCount      = document.getElementById('results-count');
-  const searchInput       = document.getElementById('search-input');
+  const productGrid = document.getElementById('product-grid');
+  const resultsCount = document.getElementById('results-count');
+  const searchInput = document.getElementById('search-input');
   const tagPillsContainer = document.getElementById('tag-pills');
-  const statusBanner      = document.getElementById('status-banner');
-  const statusMessage     = document.getElementById('status-message');
+  const statusBanner = document.getElementById('status-banner');
+  const statusMessage = document.getElementById('status-message');
 
   // Modal Elements
-  const productModal   = document.getElementById('product-modal');
-  const modalCloseBtn  = document.getElementById('modal-close-btn');
-  const modalTitle     = document.getElementById('modal-title');
-  const modalBrand     = document.getElementById('modal-brand');
-  const modalPrice     = document.getElementById('modal-price');
-  const modalDesc      = document.getElementById('modal-desc');
-  const modalTags      = document.getElementById('modal-tags');
-  const modalWhatsapp  = document.getElementById('modal-whatsapp');
-  const modalSocials   = document.getElementById('modal-socials');
+  const productModal = document.getElementById('product-modal');
+  const modalCloseBtn = document.getElementById('modal-close-btn');
+  const modalTitle = document.getElementById('modal-title');
+  const modalBrand = document.getElementById('modal-brand');
+  const modalPrice = document.getElementById('modal-price');
+  const modalDesc = document.getElementById('modal-desc');
+  const modalTags = document.getElementById('modal-tags');
+  const modalWhatsapp = document.getElementById('modal-whatsapp');
+  const modalSocials = document.getElementById('modal-socials');
   const modalImgWrapper = document.getElementById('modal-img-wrapper');
 
   // SVG Placeholder
@@ -399,7 +399,7 @@
   });
 
   function initNetworkListeners() {
-    window.addEventListener('online',  updateNetworkStatus);
+    window.addEventListener('online', updateNetworkStatus);
     window.addEventListener('offline', updateNetworkStatus);
     updateNetworkStatus();
   }
@@ -516,8 +516,8 @@
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase().trim();
         const inTitle = product.title.toLowerCase().includes(q);
-        const inDesc  = product.description.toLowerCase().includes(q);
-        const inTags  = Array.isArray(product.tags) && product.tags.some(t => t.toLowerCase().includes(q));
+        const inDesc = product.description.toLowerCase().includes(q);
+        const inTags = Array.isArray(product.tags) && product.tags.some(t => t.toLowerCase().includes(q));
         if (!inTitle && !inDesc && !inTags) return false;
       }
       return true;
@@ -548,7 +548,7 @@
   };
 
   function createProductCardHTML(product, index = 0) {
-    const waUrl    = buildWhatsappUrl(product);
+    const waUrl = buildWhatsappUrl(product);
     const tagsHTML = Array.isArray(product.tags)
       ? product.tags.map(t => `<span class="card-tag">${escapeHTML(t)}</span>`).join('')
       : '';
@@ -556,13 +556,13 @@
 
     // Carga prioritaria y ordenada para los primeros productos visibles
     const isTopProduct = index < 4;
-    const loadingAttr  = isTopProduct ? 'eager' : 'lazy';
+    const loadingAttr = isTopProduct ? 'eager' : 'lazy';
     const priorityAttr = index < 2 ? 'fetchpriority="high"' : '';
 
     return `
       <article class="product-card" data-id="${escapeAttr(product.id)}">
         <div class="card-image-wrapper">
-          <span class="brand-badge">Tony</span>
+          <span class="brand-badge">Tonny</span>
           <img src="${escapeAttr(product.mainImage)}"
                alt="${escapeAttr(product.title)}"
                class="card-image"
@@ -605,10 +605,10 @@
   // ─────────────────────────────────────────────────────────────────────────────
   function openModal(product) {
     if (!productModal) return;
-    if (modalTitle)  modalTitle.textContent  = product.title;
-    if (modalBrand)  modalBrand.textContent  = product.brand;
-    if (modalPrice)  modalPrice.textContent  = `S/ ${product.price.toFixed(2)}`;
-    if (modalDesc)   modalDesc.innerHTML     = escapeHTML(product.description).replace(/\n/g, '<br>');
+    if (modalTitle) modalTitle.textContent = product.title;
+    if (modalBrand) modalBrand.textContent = product.brand;
+    if (modalPrice) modalPrice.textContent = `S/ ${product.price.toFixed(2)}`;
+    if (modalDesc) modalDesc.innerHTML = escapeHTML(product.description).replace(/\n/g, '<br>');
 
     if (modalTags && Array.isArray(product.tags)) {
       modalTags.innerHTML = product.tags.map(t => `<span class="card-tag">${escapeHTML(t)}</span>`).join('');
@@ -626,9 +626,9 @@
     if (modalSocials) {
       let s = '';
       const sl = product.socialLinks || {};
-      if (sl.tiktok)    s += `<a href="${escapeAttr(sl.tiktok)}"    target="_blank" rel="noopener" class="social-link">TikTok</a>`;
+      if (sl.tiktok) s += `<a href="${escapeAttr(sl.tiktok)}"    target="_blank" rel="noopener" class="social-link">TikTok</a>`;
       if (sl.instagram) s += `<a href="${escapeAttr(sl.instagram)}" target="_blank" rel="noopener" class="social-link">Instagram</a>`;
-      if (sl.facebook)  s += `<a href="${escapeAttr(sl.facebook)}"  target="_blank" rel="noopener" class="social-link">Facebook</a>`;
+      if (sl.facebook) s += `<a href="${escapeAttr(sl.facebook)}"  target="_blank" rel="noopener" class="social-link">Facebook</a>`;
       modalSocials.innerHTML = s;
     }
 
@@ -681,7 +681,7 @@
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('sw.js')
-          .then(r  => console.log('SW registrado:', r.scope))
+          .then(r => console.log('SW registrado:', r.scope))
           .catch(er => console.warn('Error SW:', er));
       });
     }
