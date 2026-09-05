@@ -43,7 +43,7 @@
   // ─────────────────────────────────────────────────────────────────────────────
 
   const SOCIAL = {
-    tiktok: 'https://www.tiktok.com/@tonny.oxa?is_from_webapp=1&sender_device=pc',
+    tiktok: 'https://www.tiktok.com/@tonny.oxa',
     facebook: 'https://www.facebook.com/profile.php?id=61590338597404',
     instagram: 'https://www.instagram.com/tonny.oxa?igsi=ajV1cjE4dzR0Ym90'
   };
