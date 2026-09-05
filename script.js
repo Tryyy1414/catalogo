@@ -132,9 +132,9 @@
       ['% Cacao', 'Frutados'], 12.00,
       ['chocolate_kiwi_70_barra_70g.webp']),   // imagen de referencia (misma variedad)
 
-    p('chocolate_quitoquito_70_barra_50g',
-      'Barra Chocolate 70% Cacao con Quito Quito 50g',
-      'Barra de chocolate amargo 70% cacao con quito quito, fruta silvestre de la selva peruana. Sabor silvestre con intensidad máxima.',
+    p('chocolate_quitoquito_60_barra_50g',
+      'Barra Chocolate 60% Cacao con Quito Quito 50g',
+      'Barra de chocolate amargo 60% cacao con quito quito, fruta silvestre de la selva peruana. Sabor silvestre con intensidad máxima.',
       ['% Cacao', 'Frutados'], 12.00,
       ['chocolate_quitoquito_60_barra_50g.webp']),  // imagen de referencia
 
@@ -165,9 +165,9 @@
       ['% Cacao', 'Frutos secos'], 16.00,
       ['chocolate_pecana_60_barra_70g.webp']),
 
-    p('chocolate_pasas_60_barra_70g',
-      'Barra Chocolate 60% Cacao con Pasas 70g',
-      'Barra de chocolate semiamargo 60% cacao con pasas selectas. Dulzura natural de la uva con el suave amargor del cacao.',
+    p('chocolate_pasas_70_barra_70g',
+      'Barra Chocolate 70% Cacao con Pasas 70g',
+      'Barra de chocolate semiamargo 70% cacao con pasas selectas. Dulzura natural de la uva con el suave amargor del cacao.',
       ['% Cacao', 'Frutados'], 16.00,
       ['chocolate_pasas_70_barra_70g.webp']),   // imagen de referencia
 
@@ -216,9 +216,9 @@
       ['% Cacao', 'Frutos secos'], 16.00,
       ['chocolate_pecana_70_barra_70g.webp']),
 
-    p('chocolate_almendra_70_barra_70g',
-      'Barra Chocolate 70% Cacao con Almendra 70g',
-      'Barra de chocolate amargo 70% cacao con almendras enteras seleccionadas. Intensidad del cacao con la cremosidad de la almendra.',
+    p('chocolate_almendra_60_barra_70g',
+      'Barra Chocolate 60% Cacao con Almendra 70g',
+      'Barra de chocolate amargo 60% cacao con almendras enteras seleccionadas. Intensidad del cacao con la cremosidad de la almendra.',
       ['% Cacao', 'Frutos secos'], 16.00,
       ['chocolate_almendra_60_barra_70g.webp']),  // imagen de referencia
 

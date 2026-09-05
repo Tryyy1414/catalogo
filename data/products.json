@@ -167,8 +167,8 @@
   {
     "id": "chocolate_quitoquito_70_barra_50g",
     "brand": "Tonny",
-    "title": "Barra Chocolate 70% Cacao con Quito Quito 50g",
-    "description": "Barra de chocolate amargo 70% cacao con quito quito, fruta silvestre de la selva peruana. Sabor silvestre con intensidad máxima.",
+    "title": "Barra Chocolate 60% Cacao con Quito Quito 50g",
+    "description": "Barra de chocolate amargo 60% cacao con quito quito, fruta silvestre de la selva peruana. Sabor silvestre con intensidad máxima.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
@@ -275,10 +275,10 @@
     }
   },
   {
-    "id": "chocolate_pasas_60_barra_70g",
+    "id": "chocolate_pasas_70_barra_70g",
     "brand": "Tonny",
-    "title": "Barra Chocolate 60% Cacao con Pasas 70g",
-    "description": "Barra de chocolate semiamargo 60% cacao con pasas selectas. Dulzura natural de la uva con el suave amargor del cacao.",
+    "title": "Barra Chocolate 70% Cacao con Pasas 70g",
+    "description": "Barra de chocolate semiamargo 70% cacao con pasas selectas. Dulzura natural de la uva con el suave amargor del cacao.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
@@ -451,10 +451,10 @@
     }
   },
   {
-    "id": "chocolate_almendra_70_barra_70g",
+    "id": "chocolate_almendra_60_barra_70g",
     "brand": "Tonny",
-    "title": "Barra Chocolate 70% Cacao con Almendra 70g",
-    "description": "Barra de chocolate amargo 70% cacao con almendras enteras seleccionadas. Intensidad del cacao con la cremosidad de la almendra.",
+    "title": "Barra Chocolate 60% Cacao con Almendra 70g",
+    "description": "Barra de chocolate amargo 60% cacao con almendras enteras seleccionadas. Intensidad del cacao con la cremosidad de la almendra.",
     "category": "Chocolates",
     "tags": [
       "% Cacao",
