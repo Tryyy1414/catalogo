@@ -43,12 +43,12 @@
   // ─────────────────────────────────────────────────────────────────────────────
 
   const SOCIAL = {
-    tiktok: 'https://www.tiktok.com/@chocolateTonny1?_t=8oO1gCgX6e7&_r=1',
-    facebook: 'https://www.facebook.com/share/1D6uEoHzGq/',
-    instagram: 'https://www.instagram.com/tonny.oxa?igsh=MXV6OGExZjJ2dmRvYw=='
+    tiktok: 'https://www.tiktok.com/@tonny.oxa?is_from_webapp=1&sender_device=pc',
+    facebook: 'https://www.facebook.com/profile.php?id=61590338597404',
+    instagram: 'https://www.instagram.com/tonny.oxa?igsi=ajV1cjE4dzR0Ym90'
   };
   const WA = 'faw.tong';
-  const IMG = 'assets/images/Tonny/';
+  const IMG = 'assets/images/tony/';
 
   /** Helper para crear entradas de producto */
   function p(id, title, description, tags, price, images) {
